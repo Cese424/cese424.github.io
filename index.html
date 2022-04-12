@@ -4,7 +4,6 @@
 
 <head>
     <title> Redirect </title>
-    <meta http-equiv="refresh" content="10;url=https://www.google.com/" />
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
@@ -34,6 +33,12 @@
         if (timeleft <= 0)
             clearInterval(downloadTimer);
     }, 1000);
+</script>
+
+<script type="text/javascript">
+    setTimeout(function() {
+    window.location.href = "https://cese424.github.io/go-back/";
+}, 10000);
 </script>
 
 </html>
